@@ -1,0 +1,11 @@
+Package calendar
+//create a date Format obj by passing the date pattern. 
+//pass the date string to date Format parse method. 
+
+Public class stringDate Demo{
+Public static void main (string [] args) { throw parse exception {
+Simple date Format sdf= new simple date Format ("dd-MM-yyyy");
+String date= "18-08-2021";
+System. out. Println (sdf.parse(date));
+}
+}
