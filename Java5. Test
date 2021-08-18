@@ -1,0 +1,21 @@
+
+class Demo 
+{
+ public static void main(String[] args) 
+{
+        float ltrain=340;
+float ltunnel=160;
+ float totalLength=ltrain+ltunnel;
+   System.out.println("Total length="+totalLength); 
+   //speed=45*(5/18)
+       double speed=12.5;
+   System.out.println("Speed="+speed); 
+        double Timetaken=totalLength/speed;
+        System.out.println("Time taken="+Timetaken); 
+    }
+}
+
+
+Output:- total length=500.0
+         Speed =12.5
+         Time taken=40.0
